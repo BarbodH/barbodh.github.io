@@ -31,7 +31,7 @@
   align-items: center;
   justify-content: center;
   background-color: var(--color-main-2);
-  height: 90vh;
+  height: 95vh;
 }
 
 .container-column-intro {
@@ -90,4 +90,33 @@
   font-size: 30px !important;
   text-align: center;
   text-decoration: none;
+}
+
+.section-about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.section-about-column {
+  border: 2px solid var(--color-main-4);
+  border-radius: 20px;
+  width: 600px;
+  padding: 10px 20px 10px 20px;
+}
+
+.section-about p {
+  font-family: Lucida Sans, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.section-about h2, .section-about h6 {
+  color: var(--color-main-4)
+}
+
+.container-about-image, .container-about-image p {
+  text-align: center;
 }
