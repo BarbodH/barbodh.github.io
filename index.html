@@ -7,9 +7,12 @@
   <title>Personal Portfolio</title>
 
   <!-- CSS resources -->
-  <link rel="stylesheet" href="/css/styles.css">
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/intro.css">
+  <link rel="stylesheet" href="/css/about.css">
+  <link rel="stylesheet" href="/css/experience.css">
 
   <!-- JavaScript resources -->
   <script defer src="/js/script.js"></script>
@@ -18,7 +21,7 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark" id="custom-navbar">
     <div class="container-fluid">
-      <div class="container-logo">
+      <div class="navbar-container-logo">
         <img src="/res/navbar.png" style="height: 30px;">
         <strong><a class="navbar-brand" href="#">Barbod Habibi</a></strong>
       </div>
@@ -41,54 +44,52 @@
     </div>
   </nav>
 
-  <div class="section section-intro" id="section-intro">
-    <div class="container-intro">
-      <div class="container-column-intro">
-        <h1>Barbod Habibi</h1>
-        <h6>Software Developer</h6>
-        <h6>Computer Science @ York University</h6>
-        <hr>
-        <p>
-          Passionate and detail-oriented student, eager to refine my craft through development of meaningful software solutions.
-          <div class="container-skills">
-            <p><strong>Server-Side Development</strong></p>
-            <span class="badge rounded-pill bg-primary">C#</span>
-            <span class="badge rounded-pill bg-primary">Visual Basic</span>
-            <span class="badge rounded-pill bg-info">ASP.NET Core</span>
-            <span class="badge rounded-pill bg-primary">Python</span>
-            <span class="badge rounded-pill bg-info">Flask</span>
-            <br>
-            <span class="badge rounded-pill bg-success">PostgreSQL</span>
-            <span class="badge rounded-pill bg-success">MySQL</span>
-            <span class="badge rounded-pill bg-success">SQLite</span>
-            <span class="badge rounded-pill bg-danger">Postman</span>
-            <span class="badge rounded-pill bg-danger">Jenkins</span>
-          </div>
-          <div class="container-skills">
-            <p><strong>Client-Side Development</strong></p>
-            <span class="badge rounded-pill bg-primary">JavaScript</span>
-            <span class="badge rounded-pill bg-info">Electron</span>
-            <span class="badge rounded-pill bg-info">Bootstrap</span>
-            <span class="badge rounded-pill bg-info">D3.js</span>
-            <span class="badge rounded-pill bg-primary">Java</span>
-            <span class="badge rounded-pill bg-info">Selenium</span>
-          </div>
-        </p>
-
-        <div class="container-links">
-          <a href="https://www.linkedin.com/in/barbodhabibi/" class="fa fa-linkedin"></a>
-          <a href="https://github.com/BarbodH" class="fa fa-github"></a>
-          <a href="mailto:habibi.k.barbod@gmail.com" class="fa fa-google"></a>
+  <div class="intro-container" id="section-intro">
+    <div class="intro-container-col">
+      <h1>Barbod Habibi</h1>
+      <h6>Software Developer</h6>
+      <h6>Computer Science @ York University</h6>
+      <hr>
+      <p>
+        Passionate and detail-oriented student, eager to refine my craft through development of meaningful software solutions.
+        <div class="container-skills">
+          <p><strong>Server-Side Development</strong></p>
+          <span class="badge rounded-pill bg-primary">C#</span>
+          <span class="badge rounded-pill bg-primary">Visual Basic</span>
+          <span class="badge rounded-pill bg-info">ASP.NET Core</span>
+          <span class="badge rounded-pill bg-primary">Python</span>
+          <span class="badge rounded-pill bg-info">Flask</span>
+          <br>
+          <span class="badge rounded-pill bg-success">PostgreSQL</span>
+          <span class="badge rounded-pill bg-success">MySQL</span>
+          <span class="badge rounded-pill bg-success">SQLite</span>
+          <span class="badge rounded-pill bg-danger">Postman</span>
+          <span class="badge rounded-pill bg-danger">Jenkins</span>
         </div>
+        <div class="container-skills">
+          <p><strong>Client-Side Development</strong></p>
+          <span class="badge rounded-pill bg-primary">JavaScript</span>
+          <span class="badge rounded-pill bg-info">Electron</span>
+          <span class="badge rounded-pill bg-info">Bootstrap</span>
+          <span class="badge rounded-pill bg-info">D3.js</span>
+          <span class="badge rounded-pill bg-primary">Java</span>
+          <span class="badge rounded-pill bg-info">Selenium</span>
+        </div>
+      </p>
+
+      <div class="container-links">
+        <a href="https://www.linkedin.com/in/barbodhabibi/" class="fa fa-linkedin"></a>
+        <a href="https://github.com/BarbodH" class="fa fa-github"></a>
+        <a href="mailto:habibi.k.barbod@gmail.com" class="fa fa-google"></a>
       </div>
-      <div class="container-column-intro-image">
-        <img src="/res/intro.png">
-      </div>
+    </div>
+    <div class="intro-container-col-image">
+      <img src="/res/intro.png">
     </div>
   </div>
 
-  <div class="section section-about" id="section-about">
-    <div class="section-about-column">
+  <div class="container-f2" id="section-about">
+    <div class="container-f2-col">
       <h1>About Me</h1>
       <hr>
 
@@ -106,11 +107,11 @@
         Given my inquisitive nature and sense of creativity, I chose to study Computer Science. I believe that this field provides me with the means not only to better understand the technologies I constantly interact with but also to express my ideas as practical applications, addressing real-world challenges.
       </p>
     </div>
-    <div class="section-about-column">
+    <div class="container-f2-col">
       <div class="container-about-image">
         <img src="/res/chess.jpeg">
         <p>
-          <em>Hustling chess veterans at Nathan Phillips Square!</em>
+          <em>Playing chess veterans at Nathan Phillips Square</em>
         </p>
       </div>
       
@@ -120,12 +121,12 @@
     </div>
   </div>
 
-  <div class="section section-experience" id="section-experience">
+  <div id="section-experience">
     <hr>
     <h1 style="text-align: center;">Work Experience</h1>
     <hr>
       <div class="container-experience">
-        <div class="container-experience-column-left">
+        <div class="container-experience-col-logo">
           <img src="/res/mccss.png">
           <div>
             <h6>Government of Ontario</h6>
@@ -133,7 +134,7 @@
           </div>
         </div>
         <div>
-          <h4>QA Automation Developer</h2>
+          <h5>QA Automation Developer</h5>
           <ul>
             <li>
               Working as a <strong>QA Automation Developer</strong>, I currently lead a team of 4 developers proficient in <strong>Selenium</strong> with Java. We have achieved a remarkable increase of over <strong>40%</strong> in test automation coverage thus far.
@@ -146,7 +147,7 @@
       </div>
 
       <div class="container-experience">
-        <div class="container-experience-column-left">
+        <div class="container-experience-col-logo">
           <img src="/res/yurs.png">
           <div>
             <h6>YU Robotics Society</h6>
@@ -154,7 +155,7 @@
           </div>
         </div>
         <div>
-          <h4>SumoBot Team Co-Lead</h2>
+          <h5>SumoBot Team Co-Lead</h5>
           <ul>
             <li>
               Our team built self-driving bots using <strong>C++</strong>, <strong>Arduino</strong>, and <strong>Tinkercad</strong> 3D modeling to compete in York and McMaster compeitions, analogous to the sport of sumo.

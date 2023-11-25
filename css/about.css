@@ -1,0 +1,11 @@
+.container-about-image,
+.container-about-image p {
+  text-align: center;
+}
+
+.container-about-image img {
+  text-align: cetner;
+  width: 65%;
+  border-radius: 20px;
+  margin-top: 10px;
+}

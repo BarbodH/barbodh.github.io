@@ -1,0 +1,32 @@
+.intro-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-main-2);
+  height: 95vh;
+}
+
+.intro-container-col {
+  width: 500px;
+  padding: 20px 40px 20px 40px;
+  margin: 20px;
+  color: white;
+  border: 2px solid var(--color-main-4);
+  border-radius: 10px 30px;
+}
+
+.intro-container-col h1 {
+  color: var(--color-main-4);
+}
+
+.intro-container-col-image {
+  height: 450px;
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-container img {
+  height: 100%;
+}

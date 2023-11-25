@@ -1,0 +1,26 @@
+.container-experience {
+  display: grid;
+  grid-template-columns: 200px 600px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container-experience-col-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  gap: 10px;
+}
+
+.container-experience-col-logo h6 {
+  font-size: 15px;
+}
+
+.container-experience-col-logo img {
+  width: 70%;
+}
