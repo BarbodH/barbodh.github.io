@@ -31,7 +31,6 @@ li {
   flex-direction: column;
   justify-content: center;
   height: fit-content;
-  /* gap: var(--default-flex-gap); */
   padding: var(--default-padding);
 }
 
@@ -43,8 +42,20 @@ li {
   padding: var(--default-padding);
 }
 
+.center-children {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
 .container-f2-col {
   width: 600px;
+  padding: 10px;
 }
 
 .container-skills {

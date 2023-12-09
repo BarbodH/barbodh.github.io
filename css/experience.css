@@ -17,6 +17,10 @@
   gap: 10px;
 }
 
+#section-intro h1 {
+  color: #00FFFF;
+}
+
 .container-experience-col-logo h6 {
   font-size: 15px;
 }

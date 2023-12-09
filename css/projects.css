@@ -1,0 +1,8 @@
+#section-projects ul {
+  padding: var(--default-padding) 0px 0px var(--default-padding);
+}
+
+#section-projects img {
+  width: 100%;
+  border-radius: 5px;
+}
