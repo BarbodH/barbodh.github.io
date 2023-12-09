@@ -6,6 +6,7 @@
   --color-main-5: #7b3b3b;
   --default-padding: 20px;
   --default-flex-gap: 20px;
+  --navbar-height: 60px;
 }
 
 p,
@@ -16,7 +17,16 @@ li {
 }
 
 .navbar {
+  position: fixed;
+  height: var(--navbar-height);
+  top: 0;
+  width: 100%;
   background-color: var(--color-main-1) !important;
+}
+
+.section-container {
+  padding-top: var(--navbar-height) !important;
+  margin-bottom: calc(-1 * var(--navbar-height));
 }
 
 .navbar-container-logo {
@@ -39,7 +49,8 @@ li {
   justify-content: center;
   height: fit-content;
   gap: var(--default-flex-gap);
-  padding: var(--default-padding);
+  padding-left: var(--default-padding);
+  padding-right: var(--default-padding);
 }
 
 .center-children {
